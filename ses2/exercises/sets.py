@@ -9,56 +9,49 @@
 # Write a function `create_set` that takes a list of elements and returns a set containing the same elements.
 # e.g. create_set([1, 2, 3, 2]) yields {1, 2, 3}
 def create_set(list):
-    # +++your code here+++
-    return 
+    return set(list)
 
 # B. Set Union
 # Write a function `union_sets` that takes two sets and returns their union.
 # e.g. union_sets({1, 2, 3}, {3, 4, 5}) yields {1, 2, 3, 4, 5}
 # Make 2 versions, one using the set method, and one using an operator.
 def union_sets(s1, s2):
-    # +++your code here+++
-    return 
+    return s1.union(s2)
 
 # C. Set Intersection
 # Write a function `intersect_sets` that takes two sets and returns their intersection.
 # e.g. intersect_sets({1, 2, 3}, {2, 3, 4}) yields {2, 3}
 # Make 2 versions, one using the set method, and one using an operator.
 def intersect_sets(s1, s2):
-    # +++your code here+++
-    return
+    return s1.intersection(s2)
 
 # D. Set Difference
 # Write a function `difference_sets` that takes two sets and returns the difference (elements in the first set but not in the second).
 # e.g. difference_sets({1, 2, 3}, {2, 3, 4}) yields {1}
 # Make 2 versions, one using the set method, and one using an operator.
 def difference_sets(s1, s2):
-    # +++your code here+++
-    return
+    return s1.difference(s2)
 
 # E. Symmetric Difference
 # Write a function `symmetric_difference_sets` that takes two sets and returns their symmetric difference (elements in either set but not in both).
 # e.g. symmetric_difference_sets({1, 2, 3}, {3, 4, 5}) yields {1, 2, 4, 5}
 # Make 2 versions, one using the set method, and one using an operator.
 def symmetric_difference_sets(s1, s2):
-    # +++your code here+++
-    return
+    return s1.symmetric_difference(s2)
 
 # F. Set Subset
 # Write a function `is_subset` that takes two sets and returns `True` if the first set is a subset of the second set, otherwise `False`.
 # e.g. is_subset({1, 2}, {1, 2, 3}) yields `True`
 # Make 2 versions, one using the set method, and one using an operator.
 def is_subset(s1, s2):
-    # +++your code here+++
-    return
+    return s1.issubset(s2)
 
 # G. Set Superset
 # Write a function `is_superset` that takes two sets and returns `True` if the first set is a superset of the second set, otherwise `False`.
 # e.g. is_superset({1, 2, 3}, {2, 3}) yields `True`
 # Make 2 versions, one using the set method, and one using an operator.
 def is_superset(s1, s2):
-    # +++your code here+++
-    return
+    return s1.issuperset(s2)
 
 
 # Function to test the output against the expected result
